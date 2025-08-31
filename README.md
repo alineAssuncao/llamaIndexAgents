@@ -50,26 +50,6 @@ Configure o arquivo .env com sua chave de API:
 OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxx
 ```
 
-### ▶️ Executando o Projeto
-```bash
-python main.py
-```
-Ou, se houver interface web:
-```bash
-streamlit run app.py
-```
-
-## 📁 Estrutura do Projeto
-```
-llamaIndexAgents/
-├── main.py               # Execução principal
-├── tools/                # Ferramentas personalizadas
-├── data/                 # Arquivos e documentos utilizados
-├── .env                  # Chave de API
-├── requirements.txt      # Dependências
-└── README.md             # Documentação
-```
-
 ##📚 Aprendizados
 - Criação de ferramentas inteligentes com LlamaIndex
 - Integração de agentes com dados reais e documentos
